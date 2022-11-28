@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+/* -------------------------- */
+/* Header */
+
+.titre a{
+    color:white;
+    text-decoration: none;
+}
+.titre a:hover{
+    text-decoration: underline;
+}
+
+.en_tete {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(0,191,255);
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    
+    
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.nav {
+    /* border: 1px solid black; */
+    width: 70%;   
+    display: flex;
+    justify-content: end;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------
+Milieu */
+
+.milieu img {
+    width: 100%;
+}
+
+
+.gros_texte {
+    position: absolute;
+    top: 40%;
+    left: auto;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.boutton_play{
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 100%;
+    
+}
+
+/* JEUX */
+
+.jeux {
+    margin-top: 200px;
+}
+
+.diff_jeux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.mario_galaxy img {
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.txtmario {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nummario {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+}
+.proutmario {
+    color: white;
+}
+.diffmario {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Stats */
+
+.stats {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.stats img {
+    width: 36%;
+    margin-left: 140px;
+}
+.grosse_boite {
+    height: 340px;
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.colomne1 {
+    display: flex;
+    flex-direction: column;
+}
+.case1 {
+    width: 278px;
+    height: 200px;
+    background-color: rgb(	0,0,139);
+    margin: 0px 10px 10px 0px;
+}
+.case2 {
+    width: 278px;
+    height: 200px;
+    background-color: rgb(152, 251, 152);
+    margin: 10px 10px 0px 0px;
+}
+
+.colomne2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.case3{
+    width: 278px;
+    height: 200px;
+    background-color: rgb(255, 215, 0);
+    margin: 0px 0px 10px 10px;
+}
+.case4{
+    width: 278px;
+    height: 200px;
+    background-color: rgb(240, 128, 128);
+    margin: 10px 0px 0px 10px;
+}
+.casetxt {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.nbtxt {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15%;
+    
+}
+
+/* equipe */
+
+.equipe_txt {
+    margin-top: 200px;
+}
+
+.quip {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.grosse_case {
+    width: 300px;
+    height: 370px;
+    background-color: gray;
+    z-index: 88;
+
+}
+.equipe{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.equipe img {
+    z-index: 87;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 100px;
+    margin-left: 50px;
+    
+}
+.Nom{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.role {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.reseaux img{
+    border-radius: 0px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 80px;
+    position: absolute;
+    top: 270px;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    margin-right: 50px;
+    margin-left: 10px;
+    height: 50px;
+    
+
+}
+/* footer */
+
+.pieds{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0,191,255);
+    margin-top: 200px;
+}
+.colonnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.colonne{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid white; */
+    margin-top: 50px;
+}
+.Information{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.doubletxt{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.orange{
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+}
+.txtnormal{
+    color: white;
+}
+.petitesimages img {
+    width: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
