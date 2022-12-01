@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+/* -------------------------- */
+/* Header */
+
+.titre a{
+    color:white;
+    text-decoration: none;
+}
+.titre a:hover{
+    text-decoration: underline;
+}
+
+.en_tete {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(0,191,255);
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    
+    
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.nav {
+    /* border: 1px solid black; */
+    width: 70%;   
+    display: flex;
+    justify-content: end;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+/* ------------------------------
+Milieu */
+
+.milieu img {
+    width: 100%;
+}
+
+
+.gros_texte {
+    position: absolute;
+    top: 40%;
+    left: auto;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.boutton_play{
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 100%;
+    
+}
+.Affiche img{
+    width: 100%;
+    height: 300px;
+}
+.gros_texte {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Formulaire */
+
+.Formulaire{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+.Formulaire_disposition{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form{
+    height: 35px;
+    width: 300px;
+    background-color: rgb(119,136,153);
+    border-radius: 6px;
+}
+::placeholder{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.valider input{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+}
+
+.Formu_mail input{
+    padding-left: 15px;
+}
+.Formu_mdp input{
+    padding-left: 15px;
+}
+/* footer */
+
+.pieds{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(0,191,255);
+    margin-top: 200px;
+}
+.colonnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.colonne{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid white;  */
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.Information{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.doubletxt{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.orange{
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+}
+.txtnormal{
+    color: white;
+}
+.petitesimages img {
+    width: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.petitesimages{
+    margin-top: 10px;
+}
+.copyright{
+    margin-top: 70px;
+}
+.copy{
+    color: white;
+}
+li{
+    color: orange;
+}
